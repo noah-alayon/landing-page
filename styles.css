@@ -8,6 +8,22 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #e5e7eb;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
 .hero {
     background-color: #1f2937;
     min-width: 100%;
@@ -34,18 +50,3 @@ body {
     color: #e5e7eb;
 }
 
-a {
-    text-decoration: none;
-}
-
-a:visited {
-    color: #e5e7eb;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    gap: 32px;
-}
