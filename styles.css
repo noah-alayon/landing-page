@@ -29,7 +29,7 @@ button {
     background: #3882f6;
     border: none;
     border-radius: 4px;
-    padding: 4px 16px;
+    padding: 8px 24px;
     font-weight: bold;
 }
 
@@ -41,7 +41,7 @@ button {
     align-items: center;
 }
 
-.hero-content {
+.hero-container {
     width: 75%;
 }
 
@@ -58,18 +58,33 @@ button {
     font-weight: bold;
 }
 
-.hero-text {
-    width: 500px;
-}
-
 .hero-main-text {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    margin-bottom: 16px;
 }
 
 .links,
 .hero-sub-text {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.hero-sub-text {
+    margin-bottom: 32px;
+}
+
+.hero-text {
+    width: 400px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.hero-image {
+    width: 400px;
 }
