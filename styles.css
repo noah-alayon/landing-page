@@ -81,7 +81,7 @@ button {
 .hero-content {
     display: flex;
     justify-content: space-between;
-    margin: 100px 0;
+    margin: 60px 0;
 }
 
 .hero-image {
@@ -99,7 +99,7 @@ button {
 .info-container {
     display: flex;
     justify-content: center;
-    gap: 48px;
+    gap: 60px;
 }
 
 .info-card {
@@ -114,4 +114,10 @@ button {
     height: 100%;
     object-fit: cover;
     border-radius: 12px;
+}
+
+.info-card p {
+    text-align: center;
+    font-size: 18px;
+    color: gray;
 }
