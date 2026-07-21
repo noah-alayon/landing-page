@@ -20,7 +20,7 @@ ul {
     padding: 0;
     list-style: none;
     display: flex;
-    gap: 32px;
+    gap: 16px;
 }
 
 button {
@@ -42,7 +42,7 @@ button {
 }
 
 .hero-container {
-    width: 75%;
+    width: 80%;
 }
 
 .header {
@@ -50,6 +50,7 @@ button {
     justify-content: space-between;
     align-items: center;
     padding: 16px 0;
+    gap: 16px;
 }
 
 .logo {
@@ -83,10 +84,13 @@ button {
     display: flex;
     justify-content: space-between;
     margin: 60px 0;
+    flex-wrap: wrap;
+    gap: 48px;
 }
 
 .hero-image {
     width: 400px;
+    max-width: 100%;
 }
 
 .info {
@@ -105,6 +109,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 60px;
+    flex-wrap: wrap;
 }
 
 .info-card {
@@ -137,7 +142,7 @@ button {
 }
 
 .quote-content {
-    width: 40%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     margin: 100px 0;
@@ -171,6 +176,7 @@ button {
     width: 50%;
     padding: 48px;
     margin: 100px 0;
+    gap: 32px;
 }
 
 .sign-up-main-text {
